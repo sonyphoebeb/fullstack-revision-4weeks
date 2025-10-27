@@ -29,23 +29,20 @@ The project demonstrates how to write JS separately and link it to HTML and CSS 
 
 ## 🗂️ **Folder Structure**
 
-Week1_Day1_JS_Basics/
-├── index.html # Main HTML file (links CSS + JS)
-├── style.css # Handles page styling
-├── script.js # JavaScript logic and DOM output
-└── README.md # Documentation (this file)
-
-yaml
-Copy code
+     Week1_Day1_JS_Basics/
+    ├── index.html # Main HTML file (links CSS + JS)
+    ├── style.css # Handles page styling
+    ├── script.js # JavaScript logic and DOM output
+    └── README.md # Documentation (this file)
 
 ---
 
 ## ⚙️ **How to Run the Project**
 
-1. Clone or download this folder  
-2. Open `index.html` in your browser  
-3. View results directly on the webpage  
-4. Open DevTools (`F12` → Console) for additional logs  
+   1. Clone or download this folder  
+   2. Open `index.html` in your browser  
+   3. View results directly on the webpage  
+   4. Open DevTools (`F12` → Console) for additional logs  
 
 ---
 
@@ -66,19 +63,20 @@ Copy code
 🌸 JavaScript Day 1 – Variables, Data Types, Scope Practice
 
 1️⃣ Variables
+
 Name: Sony
-Age: 25
-City: Chennai
+
+Age: 23
+
+City: Hyderabad
 
 2️⃣ Data Types
+
 Boolean: true
+
 Array: JS, TS, Angular
-Object: {"name":"Sony","age":25,"city":"Chennai"}
 
-...
-
-yaml
-Copy code
+Object: {"name":"Sony","age":23,"city":"Hyderabad"}
 
 ---
 
