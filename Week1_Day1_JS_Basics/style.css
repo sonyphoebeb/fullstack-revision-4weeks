@@ -1,0 +1,28 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f7fb;
+    color: #333;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #1976d2;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .output {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-top: 20px;
+    line-height: 1.6;
+  }
+  
+  .section-title {
+    color: #1976d2;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
