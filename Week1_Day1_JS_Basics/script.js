@@ -18,13 +18,13 @@ hoistedVar = "I am hoisted!";
 
 // --- 4. Scope ---
 function checkScope() {
-  var a = 10;
-  let b = 20;
-  if (true) {
-    var a = 30; // re-declared (same function scope)
-    let b = 40; // block scoped
-  }
-  return `a = ${a}, b = ${b}`;
+    var a = 10;
+    let b = 20;
+    if (true) {
+        var a = 30; // re-declared (same function scope)
+        let b = 40; // block scoped
+    }
+    return `a = ${a}, b = ${b}`;
 }
 
 // --- 5. Display Output in HTML ---
