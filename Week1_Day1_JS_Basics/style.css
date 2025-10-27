@@ -1,27 +1,28 @@
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background: #f4f7fb;
+    font-family: 'Poppins', sans-serif;
+    background: #f5f7fa;
     color: #333;
     padding: 20px;
+    line-height: 1.6;
 }
 
 h1 {
     color: #1976d2;
     text-align: center;
-    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
-.output {
+#output {
     background: #fff;
+    border: 1px solid #ddd;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    margin-top: 20px;
-    line-height: 1.6;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .section-title {
+    font-weight: bold;
     color: #1976d2;
     margin-top: 15px;
-    font-weight: bold;
+    margin-bottom: 5px;
 }
