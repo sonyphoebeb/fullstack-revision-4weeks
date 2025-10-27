@@ -39,10 +39,10 @@ The project demonstrates how to write JS separately and link it to HTML and CSS 
 
 ## ⚙️ **How to Run the Project**
 
-1. Clone or download this folder  
-    2. Open `index.html` in your browser  
-    3. View results directly on the webpage  
-    4. Open DevTools (`F12` → Console) for additional logs  
+   1. Clone or download this folder  
+   2. Open `index.html` in your browser  
+   3. View results directly on the webpage  
+   4. Open DevTools (`F12` → Console) for additional logs  
 
 ---
 
