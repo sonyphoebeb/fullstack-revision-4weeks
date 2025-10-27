@@ -63,13 +63,19 @@ The project demonstrates how to write JS separately and link it to HTML and CSS 
 🌸 JavaScript Day 1 – Variables, Data Types, Scope Practice
 
 1️⃣ Variables
+
 Name: Sony
+
 Age: 23
+
 City: Hyderabad
 
 2️⃣ Data Types
+
 Boolean: true
+
 Array: JS, TS, Angular
+
 Object: {"name":"Sony","age":23,"city":"Hyderabad"}
 
 ---
