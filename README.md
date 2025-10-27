@@ -64,18 +64,13 @@ The project demonstrates how to write JS separately and link it to HTML and CSS 
 
 1️⃣ Variables
 Name: Sony
-Age: 25
-City: Chennai
+Age: 23
+City: Hyderabad
 
 2️⃣ Data Types
 Boolean: true
 Array: JS, TS, Angular
-Object: {"name":"Sony","age":25,"city":"Chennai"}
-
-...
-
-yaml
-Copy code
+Object: {"name":"Sony","age":23,"city":"Hyderabad"}
 
 ---
 
