@@ -1,6 +1,6 @@
 // --- 1️⃣ Regular Function ---
 function greet(name) {
-    return `Hello, ${name}! Welcome to JS Revision 🌸`;
+    return `Hello, I'm ${name}! 🌸`;
 }
 
 // --- 2️⃣ Function Expression ---
