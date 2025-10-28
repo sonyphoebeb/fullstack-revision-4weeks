@@ -94,6 +94,7 @@ Object: {"name":"Sony","age":23,"city":"Hyderabad"}
 📅 *Week 1 – Day 1*  
 🏷️ *#JavaScript #Practice #RevisionPlan*
 
+<br>
 
 # ⚡ Day 2 – Functions, Arrow Functions & Callbacks
 
