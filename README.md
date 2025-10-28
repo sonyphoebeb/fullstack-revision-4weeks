@@ -215,9 +215,17 @@ This practice demonstrates:
 
 Reinforce your understanding of different function types and how callbacks allow one function to control when another runs — a core JS skill used in async operations, event handling, and APIs.
 
----
 
-✨ Author: Sony
-📂 Project: A_FullStack_Revision
-📘 Week 1 – Day 2 Practice
+✨ **Author:** *Sony*  
+📂 *Project: A_FullStack_Revision*  
+📘 *Week 1 – Day 2 Practice*
+
+
+
+
+
+
+
+
+
 
