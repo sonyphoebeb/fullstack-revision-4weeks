@@ -93,3 +93,103 @@ Object: {"name":"Sony","age":23,"city":"Hyderabad"}
 👩‍💻 **Author:** *Sony*  
 📅 *Week 1 – Day 1*  
 🏷️ *#JavaScript #Practice #RevisionPlan*
+
+
+# ⚡ Day 2 – Functions, Arrow Functions & Callbacks
+
+## 📅 Week 1: JavaScript Deep Refresh  
+**Focus:** Understanding different types of functions and how callbacks work.
+
+---
+
+## 🎯 **Topics Covered**
+- Regular Functions  
+- Function Expressions  
+- Arrow Functions  
+- Default Parameters  
+- Callback Functions  
+
+---
+
+## 🧩 **Overview**
+
+Functions are the building blocks of JavaScript logic.  
+They let you **reuse code**, **organize logic**, and **control execution flow** efficiently.
+
+This practice demonstrates:
+- How to define and call functions in different ways  
+- The difference between regular and arrow functions  
+- How to pass one function as an argument to another (callback)
+
+---
+
+## 🧠 **Example Concepts**
+
+### ✅ Regular Function
+```js
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+✅ Function Expression
+js
+Copy code
+const add = function(a, b) {
+  return a + b;
+};
+✅ Arrow Function
+js
+Copy code
+const multiply = (x, y) => x * y;
+✅ Callback Function
+js
+Copy code
+function processUserInput(callback) {
+  const userName = "Sony";
+  return callback(userName);
+}
+
+function displayUser(name) {
+  return `Callback executed → Hello ${name}!`;
+}
+
+console.log(processUserInput(displayUser));
+🧩 Output:
+
+nginx
+Copy code
+Callback executed → Hello Sony!
+💻 Folder Structure
+bash
+Copy code
+Day2_Functions/
+│
+├── index.html     # HTML structure
+├── style.css      # Styling
+└── script.js      # JavaScript logic
+🚀 How to Run
+Open index.html in your browser.
+
+Check both the web output and console logs for clarity.
+
+Each function example is clearly displayed with section titles.
+
+🧩 Mini-Concept Recap
+Type	Syntax	Key Feature
+Regular Function	function greet(){}	Hoisted, has its own this
+Function Expression	const x = function(){}	Not hoisted
+Arrow Function	const x = () => {}	Short syntax, no own this
+Callback	Passed as argument	Executed later
+
+🏁 Goal
+Reinforce your understanding of different function types and how callbacks allow one function to control when another runs — a core JS skill used in async operations, event handling, and APIs.
+
+✨ Author: Sony
+📂 Project: A_FullStack_Revision
+📘 Week 1 – Day 2 Practice
+
+yaml
+Copy code
+
+---
+
+Would you like me to now generate the **callback flow diagram image** (with arrows & colors) to include below this READM
