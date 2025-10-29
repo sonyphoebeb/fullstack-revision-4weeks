@@ -4,14 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 3 – Arrays & Objects Practice</title>
+    <title>Day 3 – Arrays & Objects Interactive</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 
 <body>
     <h1>🧠 JavaScript Day 3 – Arrays & Objects (map, filter, reduce)</h1>
-    <div id="output" class="output"></div>
+
+    <div class="container">
+        <div class="array-section">
+            <h2>🔢 Original Array:</h2>
+            <p id="arrayDisplay"></p>
+
+            <div class="btn-group">
+                <button id="mapBtn">map() ➜ Double</button>
+                <button id="filterBtn">filter() ➜ > 25</button>
+                <button id="reduceBtn">reduce() ➜ Sum</button>
+                <button id="resetBtn">Reset</button>
+            </div>
+
+            <h3>🧩 Output:</h3>
+            <p id="result"></p>
+        </div>
+
+        <hr>
+
+        <div class="object-section">
+            <h2>👤 Object Example:</h2>
+            <pre id="objectDisplay"></pre>
+        </div>
+    </div>
 </body>
 
 </html>
