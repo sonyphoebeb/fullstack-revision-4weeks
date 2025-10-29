@@ -221,6 +221,107 @@ Reinforce your understanding of different function types and how callbacks allow
 📘 *Week 1 – Day 2 Practice*
 
 
+# 🌟 Day 3 – Arrays & Objects (Interactive Demo)
+
+This mini project is part of my **4-Week JavaScript Revision**.  
+It demonstrates **Arrays and Objects** in action — including `map()`, `filter()`, and `reduce()` methods — through an interactive webpage.
+
+---
+
+## 🧩 Topics Covered
+- Arrays basics (`push`, `map`, `filter`, `reduce`)
+- Objects basics (properties, access, modification)
+- DOM manipulation using JavaScript
+- Event handling (`addEventListener`)
+- Displaying data dynamically in HTML
+- Using `JSON.stringify()` for object visualization
+
+---
+
+## 📂 Project Structure
+
+Week1/
+└── Day3_Arrays_Objects/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+yaml
+Copy code
+
+---
+
+## 🖥️ How It Works
+
+1. **index.html**
+   - Contains buttons for performing array operations.
+   - Displays the array and results dynamically in the browser.
+
+2. **script.js**
+   - Handles logic for:
+     - Showing initial array
+     - Performing `map()`, `filter()`, and `reduce()` operations
+     - Displaying object details with `JSON.stringify()`
+   - Includes a reset button to restore the original array.
+
+3. **style.css**
+   - Adds a modern look to the output section and buttons.
+   - Uses hover effects and spacing for better readability.
+
+---
+
+## ⚡ Features
+
+✅ Interactive buttons to trigger array operations  
+✅ Displays real-time output updates  
+✅ Shows formatted object data  
+✅ Easy to understand code flow with comments  
+
+---
+
+## 🧠 Example Outputs
+
+**Array:**  
+`[ 10, 20, 30, 40, 50 ]`
+
+**map():** Doubled → `[ 20, 40, 60, 80, 100 ]`  
+**filter():** >25 → `[ 30, 40, 50 ]`  
+**reduce():** Sum → `150`  
+
+**Object (JSON format):**
+```json
+{
+  "name": "Sony",
+  "age": 24,
+  "city": "Hyderabad",
+  "skills": ["JS", "TS", "Angular"]
+}
+🧭 Concepts Reinforced
+Difference between arrays and objects
+
+How map, filter, and reduce work step-by-step
+
+Using JSON.stringify(obj, null, 2) for pretty printing
+
+Updating DOM elements dynamically
+
+🚀 How to Run
+Clone or open this folder in VS Code:
+
+bash
+Copy code
+git clone https://github.com/<your-username>/js-revision-lab.git
+cd Week1/Day3_Arrays_Objects
+Open index.html in your browser.
+
+Click the buttons and see live results in the browser.
+
+🏁 Author
+👩‍💻 Sony
+Part of “4-Week JavaScript Revision Series” (Week 1 – Day 3)
+
+✨ "Code, click, and learn interactively!"
 
 
 
