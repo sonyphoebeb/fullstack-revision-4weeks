@@ -221,7 +221,9 @@ Reinforce your understanding of different function types and how callbacks allow
 📘 *Week 1 – Day 2 Practice*
 
 
-# 🌟 Day 3 – Arrays & Objects (Interactive Demo)
+<br>
+
+# 🌟 Day 3 – Arrays & Objects (Interactive)
 
 This mini project is part of my **4-Week JavaScript Revision**.  
 It demonstrates **Arrays and Objects** in action — including `map()`, `filter()`, and `reduce()` methods — through an interactive webpage.
@@ -240,15 +242,12 @@ It demonstrates **Arrays and Objects** in action — including `map()`, `filter(
 
 ## 📂 Project Structure
 
-Week1/
-└── Day3_Arrays_Objects/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
-yaml
-Copy code
+    Week1/
+    └── Day3_Arrays_Objects/
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    └── README.md
 
 ---
 
