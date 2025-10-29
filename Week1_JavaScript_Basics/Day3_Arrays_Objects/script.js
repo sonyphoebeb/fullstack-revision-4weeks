@@ -2,7 +2,7 @@
 let numbers = [10, 20, 30, 40, 50];
 const person = {
     name: "Sony",
-    age: 24,
+    age: 23,
     city: "Hyderabad",
     skills: ["JS", "TS", "Angular"]
 };
