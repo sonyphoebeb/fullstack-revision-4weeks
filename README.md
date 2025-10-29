@@ -320,6 +320,7 @@ It demonstrates **Arrays and Objects** in action — including `map()`, `filter(
 
 <h2>🏁 Author </h2>
 👩‍💻 Sony
+
 Part of “4-Week JavaScript Revision Series” (Week 1 – Day 3)
 
 ✨ "Code, click, and learn interactively!"
