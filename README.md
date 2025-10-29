@@ -126,71 +126,106 @@ This practice demonstrates:
 
 ## 🧠 **Example Concepts**
 
-### ✅ Regular Function
-```js
-function greet(name) {
-  return `Hello, ${name}!`;
-}
+ ✅ Regular Function
+
+
+    function greet(name) {
+    return `Hello, ${name}!`;
+    }
+
 ✅ Function Expression
-js
-Copy code
-const add = function(a, b) {
-  return a + b;
-};
+
+    const add = function(a, b) {
+    return a + b;
+    };
+
 ✅ Arrow Function
-js
-Copy code
-const multiply = (x, y) => x * y;
+
+    const multiply = (x, y) => x * y;
+    
 ✅ Callback Function
-js
-Copy code
-function processUserInput(callback) {
-  const userName = "Sony";
-  return callback(userName);
-}
 
-function displayUser(name) {
-  return `Callback executed → Hello ${name}!`;
-}
+    function processUserInput(callback) {
+    const userName = "Sony";
+    return callback(userName);
+    }
 
-console.log(processUserInput(displayUser));
+    function displayUser(name) {
+    return `Callback executed → Hello ${name}!`;
+    }
+
+    console.log(processUserInput(displayUser));
+    
 🧩 Output:
 
-nginx
-Copy code
-Callback executed → Hello Sony!
-💻 Folder Structure
-bash
-Copy code
-Day2_Functions/
-│
-├── index.html     # HTML structure
-├── style.css      # Styling
-└── script.js      # JavaScript logic
-🚀 How to Run
-Open index.html in your browser.
+    Callback executed → Hello Sony!
 
-Check both the web output and console logs for clarity.
+# 💻 Folder Structure
 
-Each function example is clearly displayed with section titles.
+    Day2_Functions/
+    │
+    ├── index.html     # HTML structure
+    ├── style.css      # Styling
+    └── script.js      # JavaScript logic
+    
+# 🚀 How to Run
 
-🧩 Mini-Concept Recap
-Type	Syntax	Key Feature
-Regular Function	function greet(){}	Hoisted, has its own this
-Function Expression	const x = function(){}	Not hoisted
-Arrow Function	const x = () => {}	Short syntax, no own this
-Callback	Passed as argument	Executed later
+1. Open index.html in your browser.
 
-🏁 Goal
+2. Check both the web output and console logs for clarity.
+
+3. Each function example is clearly displayed with section titles.
+
+# 🧩 Mini-Concept Recap
+
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Syntax</th>
+      <th>Key Feature</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Regular Function</td>
+      <td><code>function greet() {}</code></td>
+      <td>Hoisted, has its own <code>this</code></td>
+    </tr>
+    <tr>
+      <td>Function Expression</td>
+      <td><code>const x = function() {}</code></td>
+      <td>Not hoisted</td>
+    </tr>
+    <tr>
+      <td>Arrow Function</td>
+      <td><code>const x = () =&gt; {}</code></td>
+      <td>Short syntax, no own <code>this</code></td>
+    </tr>
+    <tr>
+      <td>Callback</td>
+      <td>Passed as argument</td>
+      <td>Executed later</td>
+    </tr>
+  </tbody>
+</table>
+
+
+# 🏁 Goal
+
 Reinforce your understanding of different function types and how callbacks allow one function to control when another runs — a core JS skill used in async operations, event handling, and APIs.
 
-✨ Author: Sony
-📂 Project: A_FullStack_Revision
-📘 Week 1 – Day 2 Practice
 
-yaml
-Copy code
+✨ **Author:** *Sony*  
+📂 *Project: A_FullStack_Revision*  
+📘 *Week 1 – Day 2 Practice*
 
----
 
-Would you like me to now generate the **callback flow diagram image** (with arrows & colors) to include below this READM
+
+
+
+
+
+
+
+
