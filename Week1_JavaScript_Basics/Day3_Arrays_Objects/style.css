@@ -8,24 +8,52 @@ body {
 
 h1 {
     color: #0056d2;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-.output {
-    margin: 0 auto;
-    margin-top: 30px;
+.container {
     background: #fff;
     border-radius: 10px;
-    padding: 25px 40px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    text-align: left;
+    padding: 30px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
-    max-width: 900px;
-    font-size: 16px;
+    text-align: left;
+    max-width: 700px;
 }
 
-.section-title {
-    font-weight: 600;
+.array-section,
+.object-section {
+    margin-bottom: 25px;
+}
+
+.btn-group {
     margin-top: 15px;
-    color: #e91e63;
+}
+
+button {
+    background-color: #0056d2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #003d99;
+}
+
+hr {
+    margin: 25px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+pre {
+    background-color: #f3f4f6;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 0.9rem;
 }
