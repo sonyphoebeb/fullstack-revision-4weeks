@@ -32,7 +32,8 @@ const adults = users.filter(u => u.age >= 23);
 const averageAge = users.reduce((sum, u) => sum + u.age, 0) / users.length;
 
 // --- 6️⃣ Display in HTML ---
-document.getElementById("output").innerHTML = `
+document.getElementById("output").innerHTML =
+    `
   <div class="section-title">1️⃣ Arrays</div>
   Numbers: [${numbers}]<br>
   Fruits: [${fruits}]<br>
@@ -51,6 +52,7 @@ document.getElementById("output").innerHTML = `
   User Names: [${userNames}]<br>
   Adults (≥23): ${JSON.stringify(adults)}<br>
   Average Age: ${averageAge.toFixed(1)}
-`;
+`
+    ;
 
 console.log("✅ Arrays & Objects examples displayed successfully!");
