@@ -319,6 +319,7 @@ It demonstrates **Arrays and Objects** in action — including `map()`, `filter(
 4. Click the buttons and see live results in the browser.
 
 <h2>🏁 Author </h2>
+
 👩‍💻 Sony
 
 Part of “4-Week JavaScript Revision Series” (Week 1 – Day 3)
