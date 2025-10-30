@@ -327,7 +327,115 @@ Part of “4-Week JavaScript Revision Series” (Week 1 – Day 3)
 ✨ "Code, click, and learn interactively!"
 
 
+# 🌐 Day 4 – Promises, Async/Await & Fetch API
 
+This project is part of my **4-Week JavaScript Revision Plan** (Week 1 – Day 4).  
+It focuses on understanding **asynchronous JavaScript** using Promises, `async/await`, and the `Fetch API` — all wrapped in a simple, interactive mini app that fetches random user data from a public API.
+
+---
+
+## 🧩 Topics Covered
+
+- Asynchronous JavaScript concepts
+- Promise creation & handling (`resolve`, `reject`)
+- Using the `fetch()` API for HTTP requests
+- Simplifying Promises with `async/await`
+- DOM manipulation with fetched data
+- Error handling using `try...catch`
+
+---
+
+## 📂 Project Structure
+
+Week1/
+└── Day4_Promises_Async_Fetch/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+yaml
+Copy code
+
+---
+
+## 🖥️ How It Works
+
+### ⚙️ index.html
+- Basic structure with a button to **Fetch Random User**
+- Contains a hidden card (`div`) where fetched user details will appear
+
+### 🎨 style.css
+- Adds styling for a centered layout
+- Button hover effects and a neat card design for user info
+
+### 💻 script.js
+- Handles the logic using:
+  - **Promise** to wrap the fetch request
+  - **async/await** for clean, readable async code
+  - **Error handling** using `try...catch`
+- Dynamically updates the DOM with fetched data
+
+---
+
+## ⚡ Features
+
+✅ Fetch random user details from `https://randomuser.me/api/`  
+✅ Displays name, email, city, and avatar dynamically  
+✅ Uses Promises and `async/await` together  
+✅ Shows loading and error states  
+✅ Clean and easy-to-read UI  
+
+---
+
+## 🧠 Example Workflow
+
+1. Click **"Fetch Random User"**  
+2. Status shows:  
+⏳ Fetching user data...
+
+markdown
+Copy code
+3. After success, you’ll see:  
+✅ User data fetched successfully!
+
+yaml
+Copy code
+And the user details like:
+
+**👩‍💼 Name:** Jane Doe  
+**📧 Email:** jane.doe@example.com  
+**🏙️ City:** Paris, France  
+*(with avatar image)*
+
+---
+
+## 🧭 Concepts Reinforced
+
+| Concept | Description |
+|----------|-------------|
+| **Promise** | Object representing eventual completion or failure of an async operation |
+| **fetch()** | Built-in API for making network requests |
+| **async/await** | Syntactic sugar for Promises — makes async code look synchronous |
+| **try...catch** | Handles runtime or network errors gracefully |
+
+---
+
+## 🚀 How to Run
+
+1. Clone or open this folder in VS Code:
+```bash
+git clone https://github.com/<your-username>/js-revision-lab.git
+cd Week1/Day4_Promises_Async_Fetch
+Open index.html in your browser.
+
+Click the Fetch Random User button.
+
+Watch data load dynamically in the UI.
+
+🏁 Author
+👩‍💻 Sony
+Part of “4-Week JavaScript Revision Series” (Week 1 – Day 4)
 
 
 
