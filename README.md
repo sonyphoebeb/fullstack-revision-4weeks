@@ -393,15 +393,15 @@ It focuses on understanding **asynchronous JavaScript** using Promises, `async/a
 1. Click **"Fetch Random User"**  
 2. Status shows:
    
-       ⏳ Fetching user data...
+   ⏳ Fetching user data...
 
 3. After success, you’ll see:
    
-       ✅ User data fetched successfully!
+   ✅ User data fetched successfully!
 
 And the user details like:
 
-**👩‍💼 Name:** Aryan Adiga 
+**👩‍💼 Name:** Aryan Adiga <br>
 **📧 Email:** adiga@example.com  
 **🏙️ City:** Thiruvananthapuram, India  
 *(with avatar image)*
