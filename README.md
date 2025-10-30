@@ -221,7 +221,9 @@ Reinforce your understanding of different function types and how callbacks allow
 📘 *Week 1 – Day 2 Practice*
 
 
-# 🌟 Day 3 – Arrays & Objects (Interactive Demo)
+<br>
+
+# 🌟 Day 3 – Arrays & Objects (Interactive)
 
 This mini project is part of my **4-Week JavaScript Revision**.  
 It demonstrates **Arrays and Objects** in action — including `map()`, `filter()`, and `reduce()` methods — through an interactive webpage.
@@ -240,15 +242,12 @@ It demonstrates **Arrays and Objects** in action — including `map()`, `filter(
 
 ## 📂 Project Structure
 
-Week1/
-└── Day3_Arrays_Objects/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
-yaml
-Copy code
+    Week1/
+    └── Day3_Arrays_Objects/
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    └── README.md
 
 ---
 
@@ -290,35 +289,39 @@ Copy code
 **reduce():** Sum → `150`  
 
 **Object (JSON format):**
-```json
-{
-  "name": "Sony",
-  "age": 24,
-  "city": "Hyderabad",
-  "skills": ["JS", "TS", "Angular"]
-}
-🧭 Concepts Reinforced
-Difference between arrays and objects
 
-How map, filter, and reduce work step-by-step
+    {
+      "name": "Sony",
+      "age": 24,
+      "city": "Hyderabad",
+      "skills": ["JS", "TS", "Angular"]
+    }
 
-Using JSON.stringify(obj, null, 2) for pretty printing
+## 🧭 Concepts Reinforced
 
-Updating DOM elements dynamically
+* Difference between arrays and objects
 
-🚀 How to Run
-Clone or open this folder in VS Code:
+* How map, filter, and reduce work step-by-step
 
-bash
-Copy code
-git clone https://github.com/<your-username>/js-revision-lab.git
-cd Week1/Day3_Arrays_Objects
-Open index.html in your browser.
+* Using JSON.stringify(obj, null, 2) for pretty printing
 
-Click the buttons and see live results in the browser.
+* Updating DOM elements dynamically
 
-🏁 Author
+## 🚀 How to Run
+
+1. Clone or open this folder in VS Code:
+
+       git clone https://github.com/<your-username>/js-revision-lab.git
+       cd Week1/Day3_Arrays_Objects
+   
+3. Open index.html in your browser.
+
+4. Click the buttons and see live results in the browser.
+
+<h2>🏁 Author </h2>
+
 👩‍💻 Sony
+
 Part of “4-Week JavaScript Revision Series” (Week 1 – Day 3)
 
 ✨ "Code, click, and learn interactively!"
