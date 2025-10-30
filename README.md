@@ -391,21 +391,19 @@ It focuses on understanding **asynchronous JavaScript** using Promises, `async/a
 ## 🧠 Example Workflow
 
 1. Click **"Fetch Random User"**  
-2. Status shows:  
-⏳ Fetching user data...
+2. Status shows:
+   
+       ⏳ Fetching user data...
 
-markdown
-Copy code
-3. After success, you’ll see:  
-✅ User data fetched successfully!
+3. After success, you’ll see:
+   
+       ✅ User data fetched successfully!
 
-yaml
-Copy code
 And the user details like:
 
-**👩‍💼 Name:** Jane Doe  
-**📧 Email:** jane.doe@example.com  
-**🏙️ City:** Paris, France  
+**👩‍💼 Name:** Aryan Adiga 
+**📧 Email:** adiga@example.com  
+**🏙️ City:** Thiruvananthapuram, India  
 *(with avatar image)*
 
 ---
