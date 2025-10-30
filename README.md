@@ -327,6 +327,9 @@ Part of “4-Week JavaScript Revision Series” (Week 1 – Day 3)
 ✨ "Code, click, and learn interactively!"
 
 
+
+<br>
+
 # 🌐 Day 4 – Promises, Async/Await & Fetch API
 
 This project is part of my **4-Week JavaScript Revision Plan** (Week 1 – Day 4).  
@@ -347,16 +350,13 @@ It focuses on understanding **asynchronous JavaScript** using Promises, `async/a
 
 ## 📂 Project Structure
 
-Week1/
-└── Day4_Promises_Async_Fetch/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
-yaml
-Copy code
-
+    Week1/
+    └── Day4_Promises_Async_Fetch/
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    └── README.md
+    
 ---
 
 ## 🖥️ How It Works
