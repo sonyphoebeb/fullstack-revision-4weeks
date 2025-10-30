@@ -422,17 +422,16 @@ And the user details like:
 ## 🚀 How to Run
 
 1. Clone or open this folder in VS Code:
-```bash
-git clone https://github.com/<your-username>/js-revision-lab.git
-cd Week1/Day4_Promises_Async_Fetch
-Open index.html in your browser.
 
-Click the Fetch Random User button.
+       git clone https://github.com/<your-username>/js-revision-lab.git
+       cd Week1/Day4_Promises_Async_Fetch
+   
+2. Open index.html in your browser.
+3. Click the Fetch Random User button.
+4. Watch data load dynamically in the UI.
 
-Watch data load dynamically in the UI.
-
-🏁 Author
-👩‍💻 Sony
+<h2> 🏁 Author </h2>
+<b> 👩‍💻 Sony </b>
 Part of “4-Week JavaScript Revision Series” (Week 1 – Day 4)
 
 
