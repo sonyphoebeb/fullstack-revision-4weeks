@@ -430,6 +430,8 @@ And the user details like:
 3. Click the Fetch Random User button.
 4. Watch data load dynamically in the UI.
 
+---
+
 👩‍💻 **Author:** *Sony*  
 📅 *Week 1 – Day 4*  
 🏷️ *#JavaScript #Promises #Async/Await #FetchAPI*
