@@ -430,7 +430,7 @@ And the user details like:
 3. Click the Fetch Random User button.
 4. Watch data load dynamically in the UI.
 
-<h2> 🏁 Author </h2>
+<h3> 🏁 Author </h3>
 <b> 👩‍💻 Sony </b> <br>
 Part of “4-Week JavaScript Revision Series” (Week 1 – Day 4)
 
