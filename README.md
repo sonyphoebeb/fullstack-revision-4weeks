@@ -431,7 +431,7 @@ And the user details like:
 4. Watch data load dynamically in the UI.
 
 <h2> 🏁 Author </h2>
-<b> 👩‍💻 Sony </b>
+<b> 👩‍💻 Sony </b> <br>
 Part of “4-Week JavaScript Revision Series” (Week 1 – Day 4)
 
 
