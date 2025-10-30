@@ -434,6 +434,10 @@ And the user details like:
 <b> 👩‍💻 Sony </b> <br>
 Part of “4-Week JavaScript Revision Series” (Week 1 – Day 4)
 
+👩‍💻 **Author:** *Sony*  
+📅 *Week 1 – Day 4*  
+🏷️ *#JavaScript #Promises #Async/Await #FetchAPI*
+
 
 
 
