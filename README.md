@@ -441,7 +441,8 @@ And the user details like:
 <br>
 
 # 📝 Day 5 – JavaScript To-Do List 
-(DOM Manipulation Mini Project)
+
+<h2>(DOM Manipulation Mini Project)</h2>
 
 This project is part of **Week 1 - Day 5** in my **4-Week Full Stack Revision Plan**.  
 It focuses on **DOM Manipulation, Event Handling, and Array Methods** in JavaScript.
