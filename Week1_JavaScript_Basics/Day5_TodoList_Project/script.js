@@ -1,75 +1,57 @@
 // --- Select Elements ---
-const taskInput = document.getElementById("taskInput");
+const input = document.getElementById("taskInput");
 const addBtn = document.getElementById("addBtn");
-const taskList = document.getElementById("taskList");
-const completedCount = document.getElementById("completedCount");
-const pendingCount = document.getElementById("pendingCount");
+const list = document.getElementById("taskList");
+const completed = document.getElementById("completedCount");
+const pending = document.getElementById("pendingCount");
 
-// --- Store Tasks ---
 let tasks = [];
 
 // --- Add Task ---
-addBtn.addEventListener("click", addTask);
-taskInput.addEventListener("keypress", (e) => {
-  if (e.key === "Enter") addTask();
-});
-
 function addTask() {
-  const text = taskInput.value.trim();
-  if (text === "") return alert("⚠️ Please enter a task!");
-
-  const newTask = {
-    id: Date.now(),
-    text,
-    completed: false,
-  };
-
-  tasks.push(newTask);
-  taskInput.value = "";
-  renderTasks();
+  const text = input.value.trim();
+  if (!text) return alert("⚠️ Please enter a task!");
+  tasks.push({ id: Date.now(), text, done: false });
+  input.value = "";
+  render();
 }
 
-// --- Render Tasks ---
-function renderTasks() {
-  taskList.innerHTML = "";
+addBtn.addEventListener("click", addTask);
+input.addEventListener("keypress", e => e.key === "Enter" && addTask());
 
-  tasks.forEach((task) => {
+// --- Render All Tasks ---
+function render() {
+  list.innerHTML = "";
+  tasks.forEach(task => {
     const li = document.createElement("li");
-    li.className = task.completed ? "completed" : "";
-
+    li.classList.toggle("completed", task.done);
     li.innerHTML = `
       <span>${task.text}</span>
       <div>
-        <button class="task-btn done" onclick="toggleComplete(${task.id})">✔️</button>
-        <button class="task-btn delete" onclick="deleteTask(${task.id})">❌</button>
-      </div>
-    `;
-
-    taskList.appendChild(li);
+        <button onclick="toggle(${task.id})" class="task-btn done">✔️</button>
+        <button onclick="remove(${task.id})" class="task-btn delete">❌</button>
+      </div>`;
+    list.appendChild(li);
   });
-
-  updateCounts();
+  updateCount();
 }
 
-// --- Toggle Complete ---
-function toggleComplete(id) {
-  tasks = tasks.map((task) =>
-    task.id === id ? { ...task, completed: !task.completed } : task
-  );
-  renderTasks();
+// --- Mark as Done ---
+function toggle(id) {
+  const task = tasks.find(t => t.id === id);
+  task.done = !task.done;
+  render();
 }
 
 // --- Delete Task ---
-function deleteTask(id) {
-  tasks = tasks.filter((task) => task.id !== id);
-  renderTasks();
+function remove(id) {
+  tasks = tasks.filter(t => t.id !== id);
+  render();
 }
 
-// --- Update Counters ---
-function updateCounts() {
-  const completed = tasks.filter((t) => t.completed).length;
-  const pending = tasks.length - completed;
-
-  completedCount.textContent = completed;
-  pendingCount.textContent = pending;
+// --- Update Counts ---
+function updateCount() {
+  const done = tasks.filter(t => t.done).length;
+  completed.textContent = done;
+  pending.textContent = tasks.length - done;
 }
