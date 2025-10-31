@@ -437,7 +437,11 @@ And the user details like:
 🏷️ *#JavaScript #Promises #Async/Await #FetchAPI*
 
 
-# 📝 Day 5 – JavaScript To-Do List (DOM Manipulation Mini Project)
+
+<br>
+
+# 📝 Day 5 – JavaScript To-Do List 
+(DOM Manipulation Mini Project)
 
 This project is part of **Week 1 - Day 5** in my **4-Week Full Stack Revision Plan**.  
 It focuses on **DOM Manipulation, Event Handling, and Array Methods** in JavaScript.
