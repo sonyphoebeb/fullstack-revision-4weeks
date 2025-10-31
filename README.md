@@ -511,7 +511,7 @@ Build an interactive **To-Do List App** that allows users to:
 
 👑 **Author:** *Sony*  
 📅 **Week 1 – Day 5**  
-🏷️ **#JavaScript #To-Do #MiniProject #FullStackRevision**
+🏷️ **#JavaScript #To-Do #MiniProject #FullStackRevision** <br>
 🌐 **Status:** ✅ Completed & Pushed to GitHub  
 ⚡ **Next Focus:** Week 2 – TypeScript Basics & Strong Typing  
 
