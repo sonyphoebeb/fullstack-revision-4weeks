@@ -437,6 +437,72 @@ And the user details like:
 🏷️ *#JavaScript #Promises #Async/Await #FetchAPI*
 
 
+# 📝 Day 5 – JavaScript To-Do List (DOM Manipulation Mini Project)
 
+This project is part of **Week 1 - Day 5** in my **4-Week Full Stack Revision Plan**.  
+It focuses on **DOM Manipulation, Event Handling, and Array Methods** in JavaScript.
+
+---
+
+## 🎯 **Project Goal**
+Build an interactive **To-Do List App** that allows users to:
+- ➕ Add new tasks  
+- ✅ Mark tasks as completed  
+- ❌ Delete tasks  
+- 📊 Track total pending and completed tasks  
+
+---
+
+## 🧩 **Features**
+- Dynamic rendering using **JavaScript DOM methods**
+- Real-time update of task counts
+- Responsive design with a modern UI
+- Works with **keyboard (Enter key)** and **button clicks**
+
+---
+
+## 🛠 **Tech Used**
+- **HTML5** – Structure  
+- **CSS3** – Styling  
+- **JavaScript (ES6)** – Logic and DOM Manipulation
+
+---
+
+## 📂 **Folder Structure**
+week1-day5-todo/
+│
+├── index.html # Main HTML structure
+├── style.css # Styling and layout
+└── script.js # Core app logic
+
+yaml
+Copy code
+
+---
+
+## 🚀 **How It Works**
+1. Enter a task in the input box and click **Add** (or press Enter).  
+2. The task appears in the list with ✅ (done) and ❌ (delete) buttons.  
+3. Click ✅ to mark a task as complete — it updates the counters.  
+4. Click ❌ to remove the task permanently.  
+
+---
+
+## 🧠 **Concepts Revised**
+- DOM Selection (`getElementById`, `createElement`, `appendChild`)
+- Event Listeners
+- Array methods (`map`, `filter`)
+- Template Literals & Object manipulation
+- State Management using arrays
+
+---
+
+## 📸 **Output Preview**
+🖼️ *To-Do List App UI with add, complete, and delete features.*
+
+---
+
+## 💡 **Next Step**
+Proceed to **Week 2 - TypeScript Mastery**
 
 
