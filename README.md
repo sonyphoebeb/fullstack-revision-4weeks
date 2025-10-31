@@ -503,6 +503,8 @@ Build an interactive **To-Do List App** that allows users to:
 ## 📸 **Output Preview**
 🖼️ *To-Do List App UI with add, complete, and delete features.*
 
+<img width="837" height="680" alt="image" src="https://github.com/user-attachments/assets/a7df8b49-f0c9-4ab5-88ca-a3417a8a67dc" />
+
 ---
 
 ## 💡 **Next Step**
