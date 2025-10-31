@@ -507,7 +507,8 @@ Build an interactive **To-Do List App** that allows users to:
 
 ---
 
-👩‍💻 **Author Information**
+# 👩‍💻 **Author Information**
+
 👑 **Author:** *Sony*  
 📅 **Week 1 – Day 5**  
 🏷️ **#JavaScript #To-Do #MiniProject #FullStackRevision**
