@@ -507,7 +507,11 @@ Build an interactive **To-Do List App** that allows users to:
 
 ---
 
-## 💡 **Next Step**
-Proceed to **Week 2 - TypeScript Mastery**
+👩‍💻 **Author Information**
+👑 **Author:** *Sony*  
+📅 **Week 1 – Day 5**  
+🏷️ **#JavaScript #To-Do #MiniProject #FullStackRevision**
+🌐 **Status:** ✅ Completed & Pushed to GitHub  
+⚡ **Next Focus:** Week 2 – TypeScript Basics & Strong Typing  
 
 
