@@ -474,14 +474,12 @@ Build an interactive **To-Do List App** that allows users to:
 ---
 
 ## 📂 **Folder Structure**
-week1-day5-todo/
-│
-├── index.html # Main HTML structure
-├── style.css # Styling and layout
-└── script.js # Core app logic
 
-yaml
-Copy code
+    week1-day5-todo/
+    │
+    ├── index.html # Main HTML structure
+    ├── style.css # Styling and layout
+    └── script.js # Core app logic
 
 ---
 
