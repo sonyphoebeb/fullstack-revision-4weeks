@@ -327,6 +327,9 @@ Part of “4-Week JavaScript Revision Series” (Week 1 – Day 3)
 ✨ "Code, click, and learn interactively!"
 
 
+
+<br>
+
 # 🌐 Day 4 – Promises, Async/Await & Fetch API
 
 This project is part of my **4-Week JavaScript Revision Plan** (Week 1 – Day 4).  
@@ -347,16 +350,13 @@ It focuses on understanding **asynchronous JavaScript** using Promises, `async/a
 
 ## 📂 Project Structure
 
-Week1/
-└── Day4_Promises_Async_Fetch/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
-yaml
-Copy code
-
+    Week1/
+    └── Day4_Promises_Async_Fetch/
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    └── README.md
+    
 ---
 
 ## 🖥️ How It Works
@@ -391,21 +391,19 @@ Copy code
 ## 🧠 Example Workflow
 
 1. Click **"Fetch Random User"**  
-2. Status shows:  
-⏳ Fetching user data...
+2. Status shows:
+   
+   ⏳ Fetching user data...
 
-markdown
-Copy code
-3. After success, you’ll see:  
-✅ User data fetched successfully!
+3. After success, you’ll see:
+   
+   ✅ User data fetched successfully!
 
-yaml
-Copy code
 And the user details like:
 
-**👩‍💼 Name:** Jane Doe  
-**📧 Email:** jane.doe@example.com  
-**🏙️ City:** Paris, France  
+**👩‍💼 Name:** Aryan Adiga <br>
+**📧 Email:** adiga@example.com  
+**🏙️ City:** Thiruvananthapuram, India  
 *(with avatar image)*
 
 ---
@@ -424,18 +422,19 @@ And the user details like:
 ## 🚀 How to Run
 
 1. Clone or open this folder in VS Code:
-```bash
-git clone https://github.com/<your-username>/js-revision-lab.git
-cd Week1/Day4_Promises_Async_Fetch
-Open index.html in your browser.
 
-Click the Fetch Random User button.
+       git clone https://github.com/<your-username>/js-revision-lab.git
+       cd Week1/Day4_Promises_Async_Fetch
+   
+2. Open index.html in your browser.
+3. Click the Fetch Random User button.
+4. Watch data load dynamically in the UI.
 
-Watch data load dynamically in the UI.
+---
 
-🏁 Author
-👩‍💻 Sony
-Part of “4-Week JavaScript Revision Series” (Week 1 – Day 4)
+👩‍💻 **Author:** *Sony*  
+📅 *Week 1 – Day 4*  
+🏷️ *#JavaScript #Promises #Async/Await #FetchAPI*
 
 
 
