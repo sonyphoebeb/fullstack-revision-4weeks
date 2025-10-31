@@ -437,7 +437,12 @@ And the user details like:
 🏷️ *#JavaScript #Promises #Async/Await #FetchAPI*
 
 
-# 📝 Day 5 – JavaScript To-Do List (DOM Manipulation Mini Project)
+
+<br>
+
+# 📝 Day 5 – JavaScript To-Do List 
+
+<h2>(DOM Manipulation Mini Project)</h2>
 
 This project is part of **Week 1 - Day 5** in my **4-Week Full Stack Revision Plan**.  
 It focuses on **DOM Manipulation, Event Handling, and Array Methods** in JavaScript.
@@ -469,14 +474,12 @@ Build an interactive **To-Do List App** that allows users to:
 ---
 
 ## 📂 **Folder Structure**
-week1-day5-todo/
-│
-├── index.html # Main HTML structure
-├── style.css # Styling and layout
-└── script.js # Core app logic
 
-yaml
-Copy code
+    week1-day5-todo/
+    │
+    ├── index.html # Main HTML structure
+    ├── style.css # Styling and layout
+    └── script.js # Core app logic
 
 ---
 
@@ -500,9 +503,16 @@ Copy code
 ## 📸 **Output Preview**
 🖼️ *To-Do List App UI with add, complete, and delete features.*
 
+<img width="837" height="680" alt="image" src="https://github.com/user-attachments/assets/a7df8b49-f0c9-4ab5-88ca-a3417a8a67dc" />
+
 ---
 
-## 💡 **Next Step**
-Proceed to **Week 2 - TypeScript Mastery**
+# 👩‍💻 **Author Information**
+
+👑 **Author:** *Sony*  
+📅 **Week 1 – Day 5**  
+🏷️ **#JavaScript #To-Do #MiniProject #FullStackRevision** <br>
+🌐 **Status:** ✅ Completed & Pushed to GitHub  
+⚡ **Next Focus:** Week 2 – TypeScript Basics & Strong Typing  
 
 
