@@ -13,16 +13,14 @@ Learned how `.ts` files are compiled into `.js`, and displayed output using DOM 
 ---
 
 ## 🗂️ Folder Structure  
-Week2_TypeScript_Mastery/
-└── Day1_Type_Basics/
-├── index.html
-├── style.css
-├── script.ts
-├── script.js
-└── tsconfig.json
 
-yaml
-Copy code
+    Week2_TypeScript_Mastery/
+    └── Day1_Type_Basics/
+    ├── index.html
+    ├── style.css
+    ├── script.ts
+    ├── script.js
+    └── tsconfig.json
 
 ---
 
