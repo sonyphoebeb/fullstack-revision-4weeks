@@ -1,5 +1,7 @@
 <div align="center">
-    <p># 🌟 Week 2 – Day 1: TypeScript Basics</p>
+
+# 🌟 Week 2 – Day 1: TypeScript Basics
+
 </div>
 
 👩‍💻 **Author:** *Sony*  
