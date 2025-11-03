@@ -8,7 +8,7 @@ function show(title: string, data: any) {
 
 // --- 1️⃣ Basic Types ---
 let userName: string = "Sony";
-let age: number = 24;
+let age: number = 23;
 let isActive: boolean = true;
 
 show("Basic Types", { userName, age, isActive });
@@ -28,7 +28,7 @@ type User = {
   age?: number; // optional
 };
 
-const user1: User = { name: "Sony", email: "sony@example.com", age: 24 };
+const user1: User = { name: "Sony", email: "sony@google.com", age: 23 };
 show("Type Alias Example", user1);
 
 // --- 4️⃣ Intersection Types (&) ---
@@ -40,8 +40,8 @@ type Employee = {
 type Manager = User & Employee; // combine User + Employee
 
 const manager: Manager = {
-  name: "Kiran",
-  email: "kiran@example.com",
+  name: "Dhiren",
+  email: "dhiren@google.com",
   id: 2001,
   role: "Team Lead",
 };
@@ -53,4 +53,4 @@ function greet(person: string, age: number): string {
   return `Hello ${person}, you are ${age} years old.`;
 }
 
-show("Function Example", greet("Sony", 24));
+show("Function Example", greet("Sony", 23));

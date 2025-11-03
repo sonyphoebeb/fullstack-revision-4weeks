@@ -7,7 +7,7 @@ function show(title, data) {
 }
 // --- 1️⃣ Basic Types ---
 let userName = "Sony";
-let age = 24;
+let age = 23;
 let isActive = true;
 show("Basic Types", { userName, age, isActive });
 // --- 2️⃣ Union Types (|) ---
@@ -16,11 +16,11 @@ userId = 101;
 show("Union Type (number)", userId);
 userId = "U101";
 show("Union Type (string)", userId);
-const user1 = { name: "Sony", email: "sony@example.com", age: 24 };
+const user1 = { name: "Sony", email: "sony@google.com", age: 23 };
 show("Type Alias Example", user1);
 const manager = {
-    name: "Kiran",
-    email: "kiran@example.com",
+    name: "Dhiren",
+    email: "dhiren@google.com",
     id: 2001,
     role: "Team Lead",
 };
@@ -29,4 +29,4 @@ show("Intersection Type Example", manager);
 function greet(person, age) {
     return `Hello ${person}, you are ${age} years old.`;
 }
-show("Function Example", greet("Sony", 24));
+show("Function Example", greet("Sony", 23));
