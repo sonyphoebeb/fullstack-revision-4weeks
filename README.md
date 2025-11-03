@@ -1,4 +1,6 @@
-# 🌟 Week 2 – Day 1: TypeScript Basics  
+<div align=""center>
+    <p># 🌟 Week 2 – Day 1: TypeScript Basics  </p>
+</div>
 
 👩‍💻 **Author:** *Sony*  
 📅 *Week 2 – Day 1*  
