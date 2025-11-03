@@ -40,10 +40,12 @@ Open index.html in browser or use Live Server.
 
 ## 🧭 Key Takeaway
 
-Learned the TypeScript workflow (.ts → .js).
+* Learned the TypeScript workflow (.ts → .js).
 
-Practiced DOM manipulation with typed variables.
+* Practiced DOM manipulation with typed variables.
 
-Understood the role of tsconfig.json in project setup.
+* Understood the role of tsconfig.json in project setup.
+
+---  
 
 ✨ End of Day 1 Practice – TypeScript Basics Complete!
