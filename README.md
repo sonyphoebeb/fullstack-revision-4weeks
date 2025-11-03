@@ -25,18 +25,21 @@ Learned how `.ts` files are compiled into `.js`, and displayed output using DOM 
 ---
 
 ## ⚙️ Steps to Run  
-1️⃣ **Initialize TypeScript**  
-```bash
-tsc --init
+
+1️⃣ Initialize TypeScript 
+
+    tsc --init
+    
 2️⃣ Compile TS to JS
 
-bash
-Copy code
-tsc
+    tsc
+    
 3️⃣ Run Project
+
 Open index.html in browser or use Live Server.
 
-🧭 Key Takeaway
+## 🧭 Key Takeaway
+
 Learned the TypeScript workflow (.ts → .js).
 
 Practiced DOM manipulation with typed variables.
