@@ -118,18 +118,16 @@ ts
 
 Built a simple web page that displays a list of employees dynamically using TypeScript.
 
-Features:
+### Features:
 
-Data structured using Interface and Enum
-
-DOM manipulation with TypeScript
-
-Styled employee cards with hover effects and active/inactive status indicators
+* Data structured using Interface and Enum
+* DOM manipulation with TypeScript
+* Styled employee cards with hover effects and active/inactive status indicators
 
 ## 🧩 Folder Structure
 
-Week2_TypeScript_Mastery/
-└── Day2_Interfaces_Enums/
+    Week2_TypeScript_Mastery/
+    └── Day2_Interfaces_Enums/
     ├── index.html
     ├── style.css
     ├── script.ts
@@ -142,14 +140,13 @@ Week2_TypeScript_Mastery/
     
 ## 🚀 How to Run
 
-Open terminal in this folder.
+1. Open terminal in this folder.
+2. Run the TypeScript compiler:
 
-Run the TypeScript compiler:
-
-tsc script.ts
-Open index.html in your browser.
+       tsc script.ts
+   
+3. Open index.html in your browser.
 
 ✨ End of Day 2
 “Interfaces define structure. Enums define clarity. Together, they make TypeScript powerful.”
 
-<div align="center"> <p>✅ Day 2 Complete — Interfaces & Enums Mastered!</p> </div> ```
