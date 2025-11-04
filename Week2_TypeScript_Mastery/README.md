@@ -57,6 +57,7 @@ Learned how `.ts` files are compiled into `.js`, and displayed output using DOM 
 </div>
 
 
+<br>
 
 <div align="center">
   <h1>🌟 Week 2 – Day 2: TypeScript Interfaces & Enums</h1>
@@ -77,14 +78,15 @@ Today’s focus was on understanding how **Interfaces** and **Enums** enhance co
 - Help in enforcing consistency across multiple objects.
 - Support optional and readonly properties.
 
-```ts
-interface Employee {
-  id: number;
-  name: string;
-  age: number;
-  department: string;
-  isActive: boolean;
-}
+ts
+
+    interface Employee {
+     id: number;
+     name: string;
+     age: number;
+     department: string;
+     isActive: boolean;
+    }
 2. 🔸 Enums
 Represent a set of named constants.
 
