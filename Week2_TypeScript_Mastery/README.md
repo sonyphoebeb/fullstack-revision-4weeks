@@ -56,3 +56,5 @@ Learned how `.ts` files are compiled into `.js`, and displayed output using DOM 
     <p>✨ End of Day 1 Practice – TypeScript Basics Complete!</p> 
 </div>
 
+
+

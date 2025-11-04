@@ -24,11 +24,44 @@ h1 {
 .list {
     margin-top: 1rem;
     text-align: left;
-    line-height: 1.8;
-    white-space: pre-wrap;
     background: #f0f4f8;
     border-radius: 10px;
     padding: 1rem;
+}
+
+.employee-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    line-height: 1.6;
+}
+
+.employee-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.employee-age {
+    color: #555;
+}
+
+.employee-department {
+    margin-top: 0.3rem;
+}
+
+.employee-status {
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+
+.status-active {
+    color: green;
+}
+
+.status-inactive {
+    color: red;
 }
 
 footer {
