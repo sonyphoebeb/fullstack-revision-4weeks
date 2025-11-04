@@ -52,9 +52,10 @@ Learned how `.ts` files are compiled into `.js`, and displayed output using DOM 
 
 ---  
 
-<div align="center"> 
-    <p>✨ End of Day 1 Practice – TypeScript Basics Complete!</p> 
-</div>
+✨ End of Day 1 Practice – TypeScript Basics Complete!
+
+
+
 
 
 <br>
@@ -87,18 +88,19 @@ ts
      department: string;
      isActive: boolean;
     }
-2. 🔸 Enums
-Represent a set of named constants.
-
-Improve readability and prevent invalid values.
+    
+### 2. 🔸 Enums
+- Represent a set of named constants.
+- Improve readability and prevent invalid values.
 
 ts
-Copy code
-enum Department {
-  IT = "Information Technology",
-  HR = "Human Resources",
-  SALES = "Sales",
-}
+
+    enum Department {
+      IT = "Information Technology",
+      HR = "Human Resources",
+      SALES = "Sales",
+    }
+    
 3. ⚙️ Interface + Enum Integration
 Used both together to define employees with structured department values.
 
