@@ -101,19 +101,21 @@ ts
       SALES = "Sales",
     }
     
-3. ⚙️ Interface + Enum Integration
-Used both together to define employees with structured department values.
+### 3. ⚙️ Interface + Enum Integration
+- Used both together to define employees with structured department values.
 
 ts
-Copy code
-interface Employee {
-  id: number;
-  name: string;
-  age: number;
-  department: Department;
-  isActive: boolean;
-}
-💻 Practical Task
+
+    interface Employee {
+     id: number;
+     name: string;
+     age: number;
+     department: Department;
+     isActive: boolean;
+    }
+    
+## 💻 Practical Task
+
 Built a simple web page that displays a list of employees dynamically using TypeScript.
 
 Features:
@@ -124,9 +126,8 @@ DOM manipulation with TypeScript
 
 Styled employee cards with hover effects and active/inactive status indicators
 
-🧩 Folder Structure
-pgsql
-Copy code
+## 🧩 Folder Structure
+
 Week2_TypeScript_Mastery/
 └── Day2_Interfaces_Enums/
     ├── index.html
@@ -134,15 +135,17 @@ Week2_TypeScript_Mastery/
     ├── script.ts
     ├── script.js
     └── tsconfig.json
-🎨 Preview
+    
+### 🎨 Preview
+
 <img src="preview.png" alt="Employee List Preview" width="700">
-🚀 How to Run
+    
+## 🚀 How to Run
+
 Open terminal in this folder.
 
 Run the TypeScript compiler:
 
-bash
-Copy code
 tsc script.ts
 Open index.html in your browser.
 
