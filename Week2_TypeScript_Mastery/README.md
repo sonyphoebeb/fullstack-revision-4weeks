@@ -136,7 +136,8 @@ Built a simple web page that displays a list of employees dynamically using Type
     
 ### 🎨 Preview
 
-<img src="preview.png" alt="Employee List Preview" width="700">
+<img width="1509" height="867" alt="image" src="https://github.com/user-attachments/assets/6e3cf838-91b6-4518-b8da-2933d824ee42" />
+
     
 ## 🚀 How to Run
 
