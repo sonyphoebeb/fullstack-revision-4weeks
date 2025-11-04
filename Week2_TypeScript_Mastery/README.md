@@ -147,6 +147,9 @@ Built a simple web page that displays a list of employees dynamically using Type
    
 3. Open index.html in your browser.
 
+---
+
 ✨ End of Day 2
+
 “Interfaces define structure. Enums define clarity. Together, they make TypeScript powerful.”
 
