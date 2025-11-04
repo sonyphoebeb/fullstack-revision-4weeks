@@ -7,8 +7,13 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "lib": ["es6", "dom"]
+    "lib": [
+      "es6",
+      "dom"
+    ]
   },
-  "include": ["./script.ts"],
+  "include": [
+    "./script.ts"
+  ],
   "exclude": []
 }
