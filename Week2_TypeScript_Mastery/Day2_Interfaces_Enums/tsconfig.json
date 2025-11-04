@@ -3,11 +3,17 @@
     "target": "es6",
     "module": "es6",
     "outDir": "./",
+    "rootDir": "./",
     "strict": true,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "lib": [
+      "es6",
+      "dom"
+    ]
   },
-  "include": ["./script.ts"],
+  "include": [
+    "./script.ts"
+  ],
   "exclude": []
 }

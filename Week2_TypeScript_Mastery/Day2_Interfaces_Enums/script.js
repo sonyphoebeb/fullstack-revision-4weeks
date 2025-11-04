@@ -9,10 +9,10 @@ var Department;
 })(Department || (Department = {}));
 // --- 3️⃣ Employee Data ---
 const employees = [
-    { id: 1, name: "Sony", age: 24, department: Department.IT, isActive: true },
-    { id: 2, name: "Kiran", age: 27, department: Department.HR, isActive: false },
-    { id: 3, name: "Asha", age: 22, department: Department.SALES, isActive: true },
-    { id: 4, name: "Ravi", age: 29, department: Department.FINANCE, isActive: true },
+    { id: 1, name: "Sony", age: 23, department: Department.IT, isActive: true },
+    { id: 2, name: "Nani", age: 21, department: Department.HR, isActive: false },
+    { id: 3, name: "Jyothi", age: 42, department: Department.SALES, isActive: true },
+    { id: 4, name: "Rambabu", age: 45, department: Department.FINANCE, isActive: true },
 ];
 // --- 4️⃣ Function to Display Employees ---
 const employeeList = document.getElementById("employeeList");
