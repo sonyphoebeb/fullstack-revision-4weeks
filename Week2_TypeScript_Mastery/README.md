@@ -52,11 +52,13 @@ Learned how `.ts` files are compiled into `.js`, and displayed output using DOM 
 
 ---  
 
-<div align="center"> 
-    <p>✨ End of Day 1 Practice – TypeScript Basics Complete!</p> 
-</div>
+✨ End of Day 1 Practice – TypeScript Basics Complete!
 
 
+
+
+
+<br>
 
 <div align="center">
   <h1>🌟 Week 2 – Day 2: TypeScript Interfaces & Enums</h1>
@@ -77,72 +79,78 @@ Today’s focus was on understanding how **Interfaces** and **Enums** enhance co
 - Help in enforcing consistency across multiple objects.
 - Support optional and readonly properties.
 
-```ts
-interface Employee {
-  id: number;
-  name: string;
-  age: number;
-  department: string;
-  isActive: boolean;
-}
-2. 🔸 Enums
-Represent a set of named constants.
+ts
 
-Improve readability and prevent invalid values.
+    interface Employee {
+     id: number;
+     name: string;
+     age: number;
+     department: string;
+     isActive: boolean;
+    }
+    
+### 2. 🔸 Enums
+- Represent a set of named constants.
+- Improve readability and prevent invalid values.
 
 ts
-Copy code
-enum Department {
-  IT = "Information Technology",
-  HR = "Human Resources",
-  SALES = "Sales",
-}
-3. ⚙️ Interface + Enum Integration
-Used both together to define employees with structured department values.
+
+    enum Department {
+      IT = "Information Technology",
+      HR = "Human Resources",
+      SALES = "Sales",
+    }
+    
+### 3. ⚙️ Interface + Enum Integration
+- Used both together to define employees with structured department values.
 
 ts
-Copy code
-interface Employee {
-  id: number;
-  name: string;
-  age: number;
-  department: Department;
-  isActive: boolean;
-}
-💻 Practical Task
+
+    interface Employee {
+     id: number;
+     name: string;
+     age: number;
+     department: Department;
+     isActive: boolean;
+    }
+    
+## 💻 Practical Task
+
 Built a simple web page that displays a list of employees dynamically using TypeScript.
 
-Features:
+### Features:
 
-Data structured using Interface and Enum
+* Data structured using Interface and Enum
+* DOM manipulation with TypeScript
+* Styled employee cards with hover effects and active/inactive status indicators
 
-DOM manipulation with TypeScript
+## 🧩 Folder Structure
 
-Styled employee cards with hover effects and active/inactive status indicators
-
-🧩 Folder Structure
-pgsql
-Copy code
-Week2_TypeScript_Mastery/
-└── Day2_Interfaces_Enums/
+    Week2_TypeScript_Mastery/
+    └── Day2_Interfaces_Enums/
     ├── index.html
     ├── style.css
     ├── script.ts
     ├── script.js
     └── tsconfig.json
-🎨 Preview
-<img src="preview.png" alt="Employee List Preview" width="700">
-🚀 How to Run
-Open terminal in this folder.
+    
+### 🎨 Preview
 
-Run the TypeScript compiler:
+<img width="1509" height="867" alt="image" src="https://github.com/user-attachments/assets/6e3cf838-91b6-4518-b8da-2933d824ee42" />
 
-bash
-Copy code
-tsc script.ts
-Open index.html in your browser.
+    
+## 🚀 How to Run
+
+1. Open terminal in this folder.
+2. Run the TypeScript compiler:
+
+       tsc script.ts
+   
+3. Open index.html in your browser.
+
+---
 
 ✨ End of Day 2
+
 “Interfaces define structure. Enums define clarity. Together, they make TypeScript powerful.”
 
-<div align="center"> <p>✅ Day 2 Complete — Interfaces & Enums Mastered!</p> </div> ```
