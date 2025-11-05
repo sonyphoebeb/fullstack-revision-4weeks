@@ -25,8 +25,8 @@ class GraduateStudent extends Student {
 // --- 3️⃣ Create Instances ---
 const students = [
     new Student("Sony", 23, "A", true),
-    new Student("Kiran", 27, "B", true),
-    new GraduateStudent("Asha", 22, "A+", true, "Computer Science"),
+    new Student("Nani", 21, "D", false),
+    new GraduateStudent("Jyothi", 25, "A+", true, "Computer Science"),
 ];
 // --- 4️⃣ Render to UI ---
 const studentList = document.getElementById("studentList");
