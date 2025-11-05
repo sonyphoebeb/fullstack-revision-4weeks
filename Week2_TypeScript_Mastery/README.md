@@ -162,8 +162,6 @@ Built a simple web page that displays a list of employees dynamically using Type
   <h1>🌟 Week 2 – Day 3: TypeScript Classes & Objects</h1>
 </div>
 
----
-
 👩‍💻 **Author:** *Sony Phoebe*  
 📅 *Week 2 – Day 3*  
 🏷️ *#TypeScript #OOP #Classes #Objects*
