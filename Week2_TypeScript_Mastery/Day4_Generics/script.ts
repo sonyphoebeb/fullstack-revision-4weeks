@@ -1,58 +1,54 @@
-// === Day 4: TypeScript Generics ===
+// --- 1️⃣ Compile Time vs Run Time Example ---
+const timeOutput = document.getElementById("timeOutput") as HTMLElement;
 
-// ✅ Section 1: Compile Time vs Run Time
-const timeOutput = document.getElementById("timeOutput") as HTMLDivElement;
+function showCompileVsRunTime() {
+    const message = `
+  🔹 <strong>Compile Time:</strong> Checked by TypeScript before running your code. 
+  (e.g., type errors, missing properties)
 
-let compileTimeNote: string = "✅ Compile Time: Errors are detected before code execution.";
-let runTimeNote: string = "⚙️ Run Time: Errors occur while the program is running.";
-
-timeOutput.innerHTML = `
-  <p><strong>${compileTimeNote}</strong></p>
-  <p><strong>${runTimeNote}</strong></p>
-`;
-
-console.log("Compile Time vs Run Time explained.");
-
-
-// ✅ Section 2: Generics in Action
-const genericOutput = document.getElementById("genericOutput") as HTMLDivElement;
-
-// A simple generic function
-function displayData<T>(value: T): T {
-    console.log("Value:", value);
-    return value;
+  🔸 <strong>Run Time:</strong> Happens when the code is actually executed in the browser or JS engine.
+  (e.g., logic errors, undefined variables)
+  `;
+    timeOutput.innerHTML = message;
 }
 
-// Using the generic function
-const result1 = displayData<string>("Hello, Generics!");
-const result2 = displayData<number>(12345);
-const result3 = displayData<boolean>(true);
+showCompileVsRunTime();
 
-// Display on UI
-genericOutput.innerHTML = `
-  <p>🔹 String: ${result1}</p>
-  <p>🔹 Number: ${result2}</p>
-  <p>🔹 Boolean: ${result3}</p>
-`;
+// --- 2️⃣ Generics in Action ---
+const genericOutput = document.getElementById("genericOutput") as HTMLElement;
 
-
-// ✅ Section 3: Dynamic Value Example
-const input = document.getElementById("userInput") as HTMLInputElement;
-const btn = document.getElementById("showBtn") as HTMLButtonElement;
-const dynamicOutput = document.getElementById("dynamicOutput") as HTMLDivElement;
-
-// Generic function for dynamic input
-function showDynamicValue<T>(value: T): string {
-    return `You entered: ${value} (Type: ${typeof value})`;
+// Generic function that works with any type
+function displayData<T>(value: T): string {
+    return `Value: ${value} | Type: ${typeof value}`;
 }
 
-// Button click event
-btn.addEventListener("click", () => {
-    const userValue = input.value;
+function showGenericExamples() {
+    const examples = [
+        displayData<string>("Hello TypeScript"),
+        displayData<number>(2025),
+        displayData<boolean>(true),
+        displayData<object>({ name: "Sony", age: 23 }),
+    ];
 
-    // Determine if number or string
-    const parsedValue = isNaN(Number(userValue)) ? userValue : Number(userValue);
+    genericOutput.innerHTML = examples.join("<br>");
+}
 
-    const output = showDynamicValue(parsedValue);
-    dynamicOutput.innerHTML = `<p>${output}</p>`;
+showGenericExamples();
+
+// --- 3️⃣ Dynamic Value Example ---
+const userInput = document.getElementById("userInput") as HTMLInputElement;
+const showBtn = document.getElementById("showBtn") as HTMLButtonElement;
+const dynamicOutput = document.getElementById("dynamicOutput") as HTMLElement;
+
+// Generic function to handle dynamic user values
+function showGenericValue<T>(value: T): void {
+    dynamicOutput.innerHTML = `<strong>Dynamic Value:</strong> ${value} <br> <strong>Type:</strong> ${typeof value}`;
+}
+
+showBtn.addEventListener("click", () => {
+    const value = userInput.value;
+
+    // If the value is numeric, convert it to number
+    const parsedValue = isNaN(Number(value)) ? value : Number(value);
+    showGenericValue(parsedValue);
 });
