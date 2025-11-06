@@ -213,3 +213,89 @@ By completing this practice, you now understand:
 * How to model data using classes
 * How to initialize and manipulate objects
 * The power of TypeScript OOP structure for real-world apps
+
+
+# 👩‍💻 TypeScript Day 4 – Generics
+
+This project demonstrates the **concept of Generics in TypeScript** with interactive UI examples.  
+It also compares **Compile Time vs Run Time**, and shows **dynamic value handling** using Generics.
+
+---
+
+## 🌟 Features
+
+### ⚙️ Compile Time vs Run Time
+- Explains how TypeScript performs type-checking at compile time.
+- Demonstrates how runtime behavior differs in JavaScript.
+
+### 🌈 Generics in Action
+- Shows generic functions that work with different data types:
+  - `string`
+  - `number`
+  - `boolean`
+  - `object`
+- Outputs values with their respective types on the screen.
+
+### 🎯 Dynamic Value Example
+- Allows user to input any value dynamically.
+- Displays the value and automatically detects its data type using generics.
+
+---
+
+## 🧠 TypeScript Concepts Covered
+- Generic Functions  
+- Type Inference  
+- Type Safety with Reusability  
+- Compile-Time vs Run-Time Behavior  
+
+---
+
+## 🛠️ Tech Stack
+- **HTML5**
+- **CSS3 (Dark Theme + Hover Effects)**
+- **TypeScript**
+
+---
+
+## 📂 Folder Structure
+Day4_Generics/
+│
+├── index.html # UI Structure
+├── style.css # Styling and hover effects
+├── script.ts # TypeScript logic for Generics
+└── tsconfig.json # TypeScript configuration
+
+yaml
+Copy code
+
+---
+
+## 🚀 How to Run
+
+1. **Compile TypeScript to JavaScript**
+   ```bash
+   tsc
+Open the Project
+Open index.html in your browser.
+
+Explore
+
+Observe the difference between compile-time and run-time.
+
+Test generic functions.
+
+Try typing dynamic values!
+
+💅 UI Preview
+Below is a screenshot of the final output 👇
+
+
+💬 Commit History
+🎨 Added hover color scheme for each section
+
+✨ Completed TypeScript Generics demo with dynamic input handling
+
+🧱 Added tsconfig.json for compiler configuration
+
+🏁 End of Day 4 Practice
+✨ Generics in TypeScript – Complete!

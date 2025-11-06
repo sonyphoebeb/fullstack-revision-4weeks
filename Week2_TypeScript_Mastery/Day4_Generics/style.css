@@ -1,57 +1,84 @@
-/* === Futuristic Dark Theme === */
 body {
     font-family: "Segoe UI", sans-serif;
-    background-color: #0f172a;
-    color: #e2e8f0;
-    text-align: center;
+    background-color: #0b132b;
+    color: #ffffff;
     margin: 0;
-    padding: 2rem;
-  }
-  
-  h1 {
-    color: #7B68EE; 
+    padding: 20px;
     text-align: center;
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-    font-weight: 700;
-  }
-  
-  
-  section {
-    background: #1e293b;
+}
+
+h1 {
+    color: #c8e1ff;
+}
+
+.output-box {
+    margin: 30px auto;
+    padding: 25px;
     border-radius: 16px;
-    box-shadow: 0 0 10px rgba(56, 189, 248, 0.3);
     width: 75%;
-    margin: 2rem auto;
-    padding: 2rem;
-  }
-  
-  .list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-  }
-  
-  .card {
-    background: #334155;
-    border-radius: 10px;
-    padding: 1.2rem;
-    width: 230px;
     text-align: left;
-    color: #e2e8f0;
-    box-shadow: 0 0 8px rgba(56, 189, 248, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 0 15px rgba(56, 189, 248, 0.5);
-  }
-  
-  footer {
-    margin-top: 2rem;
-    font-size: 0.9rem;
-    color: #94a3b8;
-  }
-  
+    line-height: 1.6;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Unique colors for each section */
+#timeOutput {
+    background: rgba(0, 180, 255, 0.1);
+    box-shadow: 0 0 15px rgba(0, 180, 255, 0.3);
+}
+
+#timeOutput:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 25px rgba(0, 180, 255, 0.5);
+}
+
+#genericOutput {
+    background: rgba(255, 111, 97, 0.1);
+    box-shadow: 0 0 15px rgba(255, 111, 97, 0.3);
+}
+
+#genericOutput:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 25px rgba(255, 111, 97, 0.5);
+}
+
+#dynamicOutput {
+    background: rgba(140, 255, 158, 0.1);
+    box-shadow: 0 0 15px rgba(140, 255, 158, 0.3);
+}
+
+#dynamicOutput:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 25px rgba(140, 255, 158, 0.5);
+}
+
+/* Inputs & Buttons */
+button {
+    background-color: #1c2541;
+    color: #ffffff;
+    border: 1px solid #3a506b;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #3a506b;
+    transform: scale(1.05);
+}
+
+input {
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #3a506b;
+    outline: none;
+    background-color: #1c2541;
+    color: white;
+}
+
+footer {
+    margin-top: 40px;
+    opacity: 0.7;
+}
