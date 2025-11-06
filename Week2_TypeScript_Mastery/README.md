@@ -214,6 +214,7 @@ By completing this practice, you now understand:
 * How to initialize and manipulate objects
 * The power of TypeScript OOP structure for real-world apps
 
+<br>
 
 # 👩‍💻 TypeScript Day 4 – Generics
 
@@ -258,15 +259,13 @@ It also compares **Compile Time vs Run Time**, and shows **dynamic value handlin
 ---
 
 ## 📂 Folder Structure
-Day4_Generics/
-│
-├── index.html # UI Structure
-├── style.css # Styling and hover effects
-├── script.ts # TypeScript logic for Generics
-└── tsconfig.json # TypeScript configuration
 
-yaml
-Copy code
+    Day4_Generics/
+    │
+    ├── index.html # UI Structure
+    ├── style.css # Styling and hover effects
+    ├── script.ts # TypeScript logic for Generics
+    └── tsconfig.json # TypeScript configuration
 
 ---
 
@@ -275,16 +274,13 @@ Copy code
 1. **Compile TypeScript to JavaScript**
    ```bash
    tsc
-Open the Project
-Open index.html in your browser.
-
-Explore
-
-Observe the difference between compile-time and run-time.
-
-Test generic functions.
-
-Try typing dynamic values!
+2. Open the Project
+   ```bash
+   Open index.html in your browser.
+3. Explore
+* Observe the difference between compile-time and run-time.
+* Test generic functions.
+* Try typing dynamic values!
 
 💅 UI Preview
 Below is a screenshot of the final output 👇
