@@ -1,73 +1,99 @@
 /* === Base Styles === */
 body {
     font-family: "Poppins", sans-serif;
-    background: #f6f8fa;
-    color: #222;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #f5f5f5;
     text-align: center;
     margin: 0;
     padding: 2rem;
+    min-height: 100vh;
 }
 
-/* === Page Title === */
+/* === Title === */
 h1 {
-    color: #0078d7;
+    font-size: 2rem;
+    color: #ffcc70;
     margin-bottom: 2rem;
+    letter-spacing: 1px;
 }
 
-/* === Section Styling === */
+/* === Section Wrapper === */
 section {
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 2rem;
-    width: 70%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    width: 75%;
     margin: 2rem auto;
-}
-
-h2 {
-    color: #333;
-    margin-bottom: 1rem;
-}
-
-/* === Output Box Styling === */
-.output-box {
-    background: #f0f4f8;
-    border-radius: 10px;
-    padding: 1rem 1.2rem;
+    padding: 2rem;
     text-align: left;
-    white-space: pre-wrap;
-    line-height: 1.7;
-    font-size: 0.95rem;
-    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+    color: #e0e0e0;
 }
 
-/* === Input Section (Dynamic Example) === */
+/* === Headings === */
+h2 {
+    color: #ffd369;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 0.5rem;
+}
+
+/* === Output Box === */
+.output-box {
+    margin-top: 1rem;
+    padding: 1.2rem;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    font-family: "Fira Code", monospace;
+    color: #fafafa;
+    white-space: pre-wrap;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.output-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.15);
+}
+
+/* === Input Section for Dynamic Demo === */
+.input-area {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
 #userInput {
     padding: 0.6rem 1rem;
-    border: 1px solid #ccc;
     border-radius: 6px;
-    margin-right: 0.5rem;
+    border: none;
     width: 250px;
     font-size: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    outline: none;
 }
 
 #showBtn {
     padding: 0.6rem 1.2rem;
-    background-color: #0078d7;
-    color: #fff;
+    margin-left: 0.5rem;
+    background: #ffcc70;
+    color: #222;
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    transition: background 0.2s ease;
+    font-weight: 600;
+    transition: background 0.2s ease, transform 0.2s ease;
 }
 
 #showBtn:hover {
-    background-color: #005fa3;
+    background: #ffe097;
+    transform: scale(1.05);
 }
 
 /* === Footer === */
 footer {
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-size: 0.9rem;
-    color: #666;
+    color: #ccc;
+    letter-spacing: 0.5px;
 }
