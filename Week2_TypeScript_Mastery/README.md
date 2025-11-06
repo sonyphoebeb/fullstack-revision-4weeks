@@ -282,14 +282,14 @@ It also compares **Compile Time vs Run Time**, and shows **dynamic value handlin
 * Test generic functions.
 * Try typing dynamic values!
 
-# 💅 UI Preview
+## 💅 UI Preview
 Below is a screenshot of the final output 👇
 <img width="1788" height="892" alt="image" src="https://github.com/user-attachments/assets/76fed694-16dd-40cb-b097-192f3e59714f" />
 
-# 💬 Commit History
+### 💬 Commit History
 * 🎨 Added hover color scheme for each section
 * ✨ Completed TypeScript Generics demo with dynamic input handling
 * 🧱 Added tsconfig.json for compiler configuration
 
-🏁 End of Day 4 Practice
+#### 🏁 End of Day 4 Practice
 ✨ Generics in TypeScript – Complete!
