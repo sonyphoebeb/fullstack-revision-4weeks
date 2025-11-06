@@ -4,7 +4,7 @@ const timeOutput = document.getElementById("timeOutput");
 function showCompileVsRunTime() {
     const message = `
   🔹 <strong>Compile Time:</strong> Checked by TypeScript before running your code. 
-  (e.g., type errors, missing properties) <br>
+  (e.g., type errors, missing properties) <br> 
 
   🔸 <strong>Run Time:</strong> Happens when the code is actually executed in the browser or JS engine.
   (e.g., logic errors, undefined variables)
