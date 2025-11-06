@@ -1,0 +1,73 @@
+/* === Base Styles === */
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f6f8fa;
+    color: #222;
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+}
+
+/* === Page Title === */
+h1 {
+    color: #0078d7;
+    margin-bottom: 2rem;
+}
+
+/* === Section Styling === */
+section {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 70%;
+    margin: 2rem auto;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* === Output Box Styling === */
+.output-box {
+    background: #f0f4f8;
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    text-align: left;
+    white-space: pre-wrap;
+    line-height: 1.7;
+    font-size: 0.95rem;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* === Input Section (Dynamic Example) === */
+#userInput {
+    padding: 0.6rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-right: 0.5rem;
+    width: 250px;
+    font-size: 1rem;
+}
+
+#showBtn {
+    padding: 0.6rem 1.2rem;
+    background-color: #0078d7;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+#showBtn:hover {
+    background-color: #005fa3;
+}
+
+/* === Footer === */
+footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #666;
+}
