@@ -16,7 +16,14 @@ showCompileVsRunTime();
 const genericOutput = document.getElementById("genericOutput");
 // Generic function that works with any type
 function displayData(value) {
-    return `Value: ${value} | Type: ${typeof value}`;
+    let displayValue;
+    if (typeof value === "object" && value !== null) {
+        displayValue = JSON.stringify(value, null, 2); // Pretty print the object
+    }
+    else {
+        displayValue = String(value);
+    }
+    return `Value: ${displayValue} | Type: ${typeof value}`;
 }
 function showGenericExamples() {
     const examples = [
@@ -34,7 +41,10 @@ const showBtn = document.getElementById("showBtn");
 const dynamicOutput = document.getElementById("dynamicOutput");
 // Generic function to handle dynamic user values
 function showGenericValue(value) {
-    dynamicOutput.innerHTML = `<strong>Dynamic Value:</strong> ${value} <br> <strong>Type:</strong> ${typeof value}`;
+    let displayValue = typeof value === "object" && value !== null
+        ? JSON.stringify(value, null, 2)
+        : String(value);
+    dynamicOutput.innerHTML = `<strong>Dynamic Value:</strong> ${displayValue} <br> <strong>Type:</strong> ${typeof value}`;
 }
 showBtn.addEventListener("click", () => {
     const value = userInput.value;
