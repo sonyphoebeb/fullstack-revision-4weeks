@@ -292,4 +292,5 @@ Below is a screenshot of the final output 👇
 * 🧱 Added tsconfig.json for compiler configuration
 
 #### 🏁 End of Day 4 Practice
+
 ✨ Generics in TypeScript – Complete!
