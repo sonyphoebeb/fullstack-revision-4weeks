@@ -57,7 +57,7 @@ Learned how `.ts` files are compiled into `.js`, and displayed output using DOM 
 
 
 
-
+<br>
 <br>
 
 <div align="center">
@@ -157,6 +157,7 @@ Built a simple web page that displays a list of employees dynamically using Type
 
 
 <br>
+<br>
 
 <div align="center">
   <h1>🌟 Week 2 – Day 3: TypeScript Classes & Objects</h1>
@@ -215,7 +216,7 @@ By completing this practice, you now understand:
 * The power of TypeScript OOP structure for real-world apps
 
 
-
+<br>
 <br>
 
 <div align="center">
@@ -302,6 +303,7 @@ Below is a screenshot of the final output 👇
 
 
 <br>
+<br>
 
 <div align="center">
   <h1>👩‍💻 TypeScript Day 5 – User Manager CRUD</h1>
@@ -364,6 +366,4 @@ By completing this project, you practiced:
 * ✅ Structuring a small project with tsconfig.json
 * ✅ Using strict typing and event handling
 
-#### 🏁 Completion Badge
-🎉 Week 2 Completed — TypeScript Mastery Achieved!
 
