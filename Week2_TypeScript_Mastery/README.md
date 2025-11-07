@@ -294,3 +294,79 @@ Below is a screenshot of the final output 👇
 #### 🏁 End of Day 4 Practice
 
 ✨ Generics in TypeScript – Complete!
+
+
+
+👩‍💻 TypeScript Day 5 – User Manager CRUD
+📘 Overview
+
+This project marks the completion of Week 2 – TypeScript Mastery in the 4-week full-stack revision plan.
+You’ll build a small interactive CRUD (Create, Read, Update, Delete) application using TypeScript classes, interfaces, and DOM manipulation.
+
+🚀 Features
+
+➕ Add User – Create new users dynamically.
+
+👀 Display Users – View all users with name and age.
+
+✏️ Edit User – Update user details through a prompt.
+
+🗑️ Delete User – Remove users instantly.
+
+💾 Auto-refresh Display – Every operation updates the UI immediately.
+
+🧱 Concepts Covered
+
+TypeScript Interfaces
+
+TypeScript Classes & Access Modifiers
+
+Generics (optional extension)
+
+DOM Manipulation in TypeScript
+
+Strict Typing for safer, cleaner code
+
+Basic CRUD logic using OOP approach
+
+🧩 File Structure
+📁 Day5_UserManager_CRUD
+│
+├── index.html          # UI layout
+├── style.css           # Dark neon theme styling
+├── script.ts           # Main TypeScript logic
+├── script.js           # Compiled JavaScript
+└── tsconfig.json       # TypeScript compiler configuration
+
+⚙️ How to Run
+
+Open a terminal in your project folder.
+
+Run the TypeScript compiler:
+
+tsc --watch
+
+
+Open index.html in your browser.
+
+Add, edit, and delete users to test CRUD functionality.
+
+🎨 UI Theme
+
+Theme: Dark Neon
+
+💡 Neon gradients and glowing text effects.
+
+Smooth buttons with subtle hover transitions.
+
+Simple and modern glass-like design.
+
+🧠 Learning Outcome
+
+By completing this project, you’ve mastered:
+
+The power of TypeScript OOP concepts.
+
+How to bridge TypeScript with HTML/DOM.
+
+Structuring small real-world projects with clean code.

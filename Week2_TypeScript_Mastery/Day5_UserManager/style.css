@@ -1,114 +1,58 @@
-/* === Base Styles === */
 body {
-    font-family: "Poppins", sans-serif;
-    background: #f4f7fb;
-    color: #222;
-    text-align: center;
-    margin: 0;
-    padding: 2rem;
-  }
-  
-  /* === Title === */
-  h1 {
-    color: #0078d7;
-    margin-bottom: 1.5rem;
-  }
-  
-  /* === Section === */
-  #userSection {
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 2rem;
-    width: 70%;
-    margin: auto;
-  }
-  
-  /* === Actions (Input + Buttons) === */
-  .actions {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 0.8rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  .actions input {
-    padding: 0.6rem 1rem;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 1rem;
-    width: 180px;
-  }
-  
-  .actions button {
-    background-color: #0078d7;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    padding: 0.6rem 1.2rem;
-    cursor: pointer;
-    transition: background 0.3s ease, transform 0.2s ease;
-  }
-  
-  .actions button:hover {
-    background-color: #005fa3;
-    transform: translateY(-2px);
-  }
-  
-  /* === User List === */
-  .list {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    text-align: left;
-  }
-  
-  .user-card {
-    background: #eef4fa;
-    border-left: 5px solid #0078d7;
-    border-radius: 8px;
-    padding: 1rem;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-    transition: transform 0.2s ease;
-  }
-  
-  .user-card:hover {
-    transform: scale(1.02);
-  }
-  
-  .user-name {
-    font-weight: 600;
-    color: #222;
-  }
-  
-  .user-age {
-    font-size: 0.95rem;
-    color: #555;
-  }
-  
-  .user-actions {
-    margin-top: 0.5rem;
-  }
-  
-  .user-actions button {
-    background-color: #e74c3c;
-    border: none;
-    color: white;
-    border-radius: 6px;
-    padding: 0.4rem 0.8rem;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-  
-  .user-actions button:hover {
-    background-color: #c0392b;
-  }
-  
-  /* === Footer === */
-  footer {
-    margin-top: 2rem;
-    font-size: 0.9rem;
-    color: #666;
-  }
-  
+  font-family: "Poppins", sans-serif;
+  background-color: #0a0f1c;
+  color: #e0e0ff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #8ab4ff;
+  text-shadow: 0 0 10px #321463;
+  margin-top: 30px;
+}
+
+.actions {
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 6px;
+  border: 1px solid #3b3b7a;
+  background-color: #161b2e;
+  color: #c3d9ff;
+}
+
+button {
+  background-color: #6d28d9;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #8b5cf6;
+  box-shadow: 0 0 10px #8b5cf6;
+}
+
+.user-card {
+  background: rgba(29, 35, 63, 0.8);
+  color: #e0e0ff;
+  margin: 15px auto;
+  padding: 12px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(100, 100, 255, 0.2);
+}
+
+footer {
+  color: #a1a1ff;
+  margin-top: 30px;
+  font-style: italic;
+}
