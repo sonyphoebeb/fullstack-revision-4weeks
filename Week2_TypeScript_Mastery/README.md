@@ -314,8 +314,8 @@ This marks the **end of Week 2** in the Full Stack Revision Plan 🎯
 
 ## 🖼️ Project Preview
 
-![Project Preview](./preview.png)  
-*(Add a screenshot of your app here – name it `preview.png` and place it in the project root folder.)*
+<img width="1242" height="878" alt="image" src="https://github.com/user-attachments/assets/35aefec2-1c48-4528-a84d-41b5bb083fc5" />
+
 
 ---
 
@@ -332,31 +332,31 @@ This marks the **end of Week 2** in the Full Stack Revision Plan 🎯
 
 ## 🧱 File Structure
 
-Day5_UserManager/
-│
-├── index.html # UI structure
-├── style.css # Dark neon glassmorphism styling
-├── script.ts # Main TypeScript logic
-├── script.js # Compiled JavaScript output
-├── tsconfig.json # TypeScript compiler configuration
-└── README.md # Project documentation
-
-yaml
-Copy code
+    Day5_UserManager/
+    │
+    ├── index.html # UI structure
+    ├── style.css # Dark neon glassmorphism styling
+    ├── script.ts # Main TypeScript logic
+    ├── script.js # Compiled JavaScript output
+    ├── tsconfig.json # TypeScript compiler configuration
+    └── README.md # Project documentation
 
 ---
 
 ## ⚙️ How to Run
 
 ### 1️⃣ Compile TypeScript
-```bash
-tsc
-2️⃣ Open in Browser
-Just open index.html in your browser.
+
+     tsc
+
+### 2️⃣ Open in Browser
+
+    Just open index.html in your browser.
 
 You’ll see the User Manager interface where you can add, edit, or delete users.
 
-🧠 Learning Outcomes
+### 🧠 Learning Outcomes
+
 By completing this project, you practiced:
 
 ✅ Working with TypeScript Classes & Interfaces
@@ -369,6 +369,6 @@ By completing this project, you practiced:
 
 ✅ Using strict typing and event handling
 
-🏁 Completion Badge
+#### 🏁 Completion Badge
 🎉 Week 2 Completed — TypeScript Mastery Achieved!
 
