@@ -355,19 +355,14 @@ This marks the **end of Week 2** in the Full Stack Revision Plan 🎯
 
 You’ll see the User Manager interface where you can add, edit, or delete users.
 
-### 🧠 Learning Outcomes
+## 🧠 Learning Outcomes
 
 By completing this project, you practiced:
-
-✅ Working with TypeScript Classes & Interfaces
-
-✅ Implementing Encapsulation & CRUD Operations
-
-✅ Manipulating the DOM using TypeScript
-
-✅ Structuring a small project with tsconfig.json
-
-✅ Using strict typing and event handling
+* ✅ Working with TypeScript Classes & Interfaces
+* ✅ Implementing Encapsulation & CRUD Operations
+* ✅ Manipulating the DOM using TypeScript
+* ✅ Structuring a small project with tsconfig.json
+* ✅ Using strict typing and event handling
 
 #### 🏁 Completion Badge
 🎉 Week 2 Completed — TypeScript Mastery Achieved!
