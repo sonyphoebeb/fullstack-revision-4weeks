@@ -7,8 +7,9 @@
 ---
 
 ## 📘 Overview
-This repository documents my learning journey and practical implementation of backend development concepts.  
-It focuses on integrating **Stored Procedures (SPs)** with **Node.js** using a layered architecture — ensuring clean code, maintainability, and performance.
+I have been learning and practicing key backend development concepts to strengthen my understanding of real-world application flow.
+During this phase, I focused on integrating Stored Procedures (SPs) with Node.js using a layered architecture — consisting of the Repository, Business Service, and Controller layers.
+This hands-on practice helped me understand how data flows through the backend and how to build maintainable and efficient APIs.
 
 ---
 
