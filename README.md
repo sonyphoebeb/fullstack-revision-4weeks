@@ -25,8 +25,6 @@ EXEC [patient].[spCreatePatient]
 @gender = 'F',
 @dob = '2002-05-15';
 
-yaml
-Copy code
 - Verified every stored procedure execution through **Postman API testing**.
 
 ---
@@ -59,19 +57,26 @@ Copy code
 ## ⚙️ Project Flow Recap
 
 SQL Server (SP creation & testing)
-↓
-Repository Layer (executes SPs)
-↓
-Business Service (handles logic)
-↓
-Controller (handles API requests)
-↓
-Routes (exposes endpoints)
-↓
-Postman (testing and validation)
 
-yaml
-Copy code
+↓
+
+Repository Layer (executes SPs)
+
+↓
+
+Business Service (handles logic)
+
+↓
+
+Controller (handles API requests)
+
+↓
+
+Routes (exposes endpoints)
+
+↓
+
+Postman (testing and validation)
 
 ---
 
