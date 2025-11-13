@@ -1,7 +1,7 @@
 <h1 align="center">💻 Backend Development Learning Summary 🚀</h1>
 
 **Author:** Sony   
-**Date:** November 3, 2025  
+**Date:** November 13, 2025  
 **Technologies:** Node.js | TypeScript | SQL Server | Postman
 
 ---
