@@ -2,7 +2,7 @@
 
 **Author:** Sony Phoebe  
 **Date:** November 9, 2025  
-**Technologies:** Node.js | TypeScript | Express | SQL Server | Postman
+**Technologies:** Node.js | TypeScript | SQL Server | Postman
 
 ---
 
