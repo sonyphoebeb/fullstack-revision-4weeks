@@ -19,11 +19,12 @@ It focuses on integrating **Stored Procedures (SPs)** with **Node.js** using a l
 - Created and tested SPs inside **SQL Server Management Studio (SSMS)** before integrating them into code.
 - Added those SP calls to the **Repository Layer** using MSSQL queries in Node.js.
 - Example flow:
-EXEC [patient].[spCreatePatient]
-@first_name = 'Sony',
-@last_name = 'Phoebe',
-@gender = 'F',
-@dob = '2002-05-15';
+  
+      EXEC [patient].[spCreatePatient]
+      @first_name = 'Sony',
+      @last_name = 'Phoebe',
+      @gender = 'F',
+      @dob = '2002-05-15';
 
 - Verified every stored procedure execution through **Postman API testing**.
 
