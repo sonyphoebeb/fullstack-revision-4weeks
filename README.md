@@ -81,8 +81,3 @@ Copy code
 - Improved debugging skills, data consistency, and response formatting.  
 - Practiced writing clean, modular, and maintainable backend code.  
 
----
-
-**📅 Last Updated:** November 9, 2025  
-**👩‍💻 Author:** *Sony Phoebe*  
-**🌐 Project Type:** Backend Learning & Practice
