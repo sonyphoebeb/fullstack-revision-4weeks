@@ -60,6 +60,5 @@ testScope();
 // 5. Practice output to HTML page
 
 document.getElementById("output").innerHTML = `
-    <h3>Practice Completed</h3>
     <p>Check the browser console for all logs and behaviors.</p>
 `;
