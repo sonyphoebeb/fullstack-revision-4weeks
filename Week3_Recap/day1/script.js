@@ -1,6 +1,4 @@
-// -----------------------------
 // 1. Variables: var, let, const
-// -----------------------------
 
 var a = 10;        // function-scoped or global-scoped
 let b = 20;        // block-scoped
@@ -11,9 +9,7 @@ console.log("let b:", b);
 console.log("const c:", c);
 
 
-// -----------------------------
 // 2. Data Types
-// -----------------------------
 
 let name = "Sony";             // string
 let age = 23;                  // number
@@ -27,9 +23,7 @@ console.log(typeof name, typeof age, typeof isActive);
 console.log(typeof user, typeof colors); // arrays show as "object"
 
 
-// -----------------------------
 // 3. Hoisting
-// -----------------------------
 
 console.log(hoistedVar);  // undefined (hoisted with default undefined)
 var hoistedVar = 100;
@@ -38,9 +32,7 @@ var hoistedVar = 100;
 // let notHoistedLet = 200;
 
 
-// -----------------------------
 // 4. Scope
-// -----------------------------
 
 // Global scope
 let globalValue = "I am global";
@@ -65,9 +57,7 @@ testScope();
 // console.log(blockValue); // ❌ Error
 
 
-// ---------------------------------
 // 5. Practice output to HTML page
-// ---------------------------------
 
 document.getElementById("output").innerHTML = `
     <h3>Practice Completed</h3>
