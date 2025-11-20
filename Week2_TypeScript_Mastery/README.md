@@ -57,7 +57,7 @@ Learned how `.ts` files are compiled into `.js`, and displayed output using DOM 
 
 
 
-
+<br>
 <br>
 
 <div align="center">
@@ -157,6 +157,7 @@ Built a simple web page that displays a list of employees dynamically using Type
 
 
 <br>
+<br>
 
 <div align="center">
   <h1>🌟 Week 2 – Day 3: TypeScript Classes & Objects</h1>
@@ -214,9 +215,13 @@ By completing this practice, you now understand:
 * How to initialize and manipulate objects
 * The power of TypeScript OOP structure for real-world apps
 
+
+<br>
 <br>
 
-# 👩‍💻 TypeScript Day 4 – Generics
+<div align="center">
+  <h1>👩‍💻 TypeScript Day 4 – Generics</h1>
+</div>
 
 This project demonstrates the **concept of Generics in TypeScript** with interactive UI examples.  
 It also compares **Compile Time vs Run Time**, and shows **dynamic value handling** using Generics.
@@ -297,76 +302,68 @@ Below is a screenshot of the final output 👇
 
 
 
-👩‍💻 TypeScript Day 5 – User Manager CRUD
-📘 Overview
+<br>
+<br>
 
-This project marks the completion of Week 2 – TypeScript Mastery in the 4-week full-stack revision plan.
-You’ll build a small interactive CRUD (Create, Read, Update, Delete) application using TypeScript classes, interfaces, and DOM manipulation.
+<div align="center">
+  <h1>👩‍💻 TypeScript Day 5 – User Manager CRUD</h1>
+</div>
 
-🚀 Features
+A mini CRUD (Create, Read, Update, Delete) project built using **TypeScript**.  
+This marks the **end of Week 2** in the Full Stack Revision Plan 🎯  
 
-➕ Add User – Create new users dynamically.
+---
 
-👀 Display Users – View all users with name and age.
+## 🖼️ Project Preview
 
-✏️ Edit User – Update user details through a prompt.
-
-🗑️ Delete User – Remove users instantly.
-
-💾 Auto-refresh Display – Every operation updates the UI immediately.
-
-🧱 Concepts Covered
-
-TypeScript Interfaces
-
-TypeScript Classes & Access Modifiers
-
-Generics (optional extension)
-
-DOM Manipulation in TypeScript
-
-Strict Typing for safer, cleaner code
-
-Basic CRUD logic using OOP approach
-
-🧩 File Structure
-📁 Day5_UserManager_CRUD
-│
-├── index.html          # UI layout
-├── style.css           # Dark neon theme styling
-├── script.ts           # Main TypeScript logic
-├── script.js           # Compiled JavaScript
-└── tsconfig.json       # TypeScript compiler configuration
-
-⚙️ How to Run
-
-Open a terminal in your project folder.
-
-Run the TypeScript compiler:
-
-tsc --watch
+<img width="1242" height="878" alt="image" src="https://github.com/user-attachments/assets/35aefec2-1c48-4528-a84d-41b5bb083fc5" />
 
 
-Open index.html in your browser.
+---
 
-Add, edit, and delete users to test CRUD functionality.
+## 🚀 Features
 
-🎨 UI Theme
+- ➕ Add users dynamically  
+- 🧾 View users list instantly  
+- ✏️ Edit existing users  
+- 🗑️ Delete users  
+- 💾 Data managed using **TypeScript classes & interfaces**  
+- 🌈 Styled with a **dark neon glassmorphism** theme  
 
-Theme: Dark Neon
+---
 
-💡 Neon gradients and glowing text effects.
+## 🧱 File Structure
 
-Smooth buttons with subtle hover transitions.
+    Day5_UserManager/
+    │
+    ├── index.html # UI structure
+    ├── style.css # Dark neon glassmorphism styling
+    ├── script.ts # Main TypeScript logic
+    ├── script.js # Compiled JavaScript output
+    ├── tsconfig.json # TypeScript compiler configuration
+    └── README.md # Project documentation
 
-Simple and modern glass-like design.
+---
 
-🧠 Learning Outcome
+## ⚙️ How to Run
 
-By completing this project, you’ve mastered:
+### 1️⃣ Compile TypeScript
 
-The power of TypeScript OOP concepts.
+     tsc
 
-How to bridge TypeScript with HTML/DOM.
+### 2️⃣ Open in Browser
 
-Structuring small real-world projects with clean code.
+    Just open index.html in your browser.
+
+You’ll see the User Manager interface where you can add, edit, or delete users.
+
+## 🧠 Learning Outcomes
+
+By completing this project, you practiced:
+* ✅ Working with TypeScript Classes & Interfaces
+* ✅ Implementing Encapsulation & CRUD Operations
+* ✅ Manipulating the DOM using TypeScript
+* ✅ Structuring a small project with tsconfig.json
+* ✅ Using strict typing and event handling
+
+
