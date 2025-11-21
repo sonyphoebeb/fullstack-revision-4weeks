@@ -1,6 +1,4 @@
-// -------------------------------------------
 // Day 2: Functions, Arrow Functions, Callbacks
-// -------------------------------------------
 
 // 1. Basic Function
 function greet(name) {
@@ -41,6 +39,6 @@ processData(100, function (result) {
 
 // 6. Display Output in HTML
 document.getElementById("output").innerHTML = `
-  <h3>Day 2 Practice Completed ✔</h3>
+  <h3>Day 2 Practice</h3>
   <p>Check console for results of function examples.</p>
 `;
